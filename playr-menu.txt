@@ -1,1 +1,1 @@
-player-menu started
+player menu started with start game settings and exit buttons
