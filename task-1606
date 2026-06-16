@@ -1,0 +1,48 @@
+ mkdir pixel-quest
+cd
+ touch game.txt
+ echo game_project_ready >>game.txt
+git init 
+ git add game.txt ; git commit -m uplod-status
+ git status
+ git branch -M main
+ git remote add origin https://github.com/d8087869-cpu/pixel-quest.git
+ git push -u origin main
+ https://github.com/d8087869-cpu/pixel-quest.git
+ git branch
+cd ../
+mkdir new-game 
+cd new-game
+ https://github.com/d8087869-cpu/pixel-quest.git
+ git clone https://github.com/d8087869-cpu/pixel-quest.git
+ cd pixel-quest/
+ vim game.txt
+ git checkout -b feature/player-menu
+ vim player_menu.txt
+ git add player_menu.txt ; git commit -m add_game player
+ git status
+ git commit -m add-player
+ git status
+     git push --set-upstream origin feature/player-menu
+ git switch main
+ git pull
+ls 
+cat game.txt
+ git switch feature/player-menu
+ls
+cat game.txt
+ vim player_menu.txt
+ git add player_menu.txt ; git commit -m added_ruls_option ; git push
+ git switch main
+ls
+ vim settings.txt
+ git add settings.txt ;git commit -m add_difficulty
+ git pull
+ vim setting.txt
+ git commit -m level
+ git pull
+ cat setting.txt
+ vim setting.txt
+ git add setting.txt ; git commit -m update-difficulty ; git push
+ git status
+
